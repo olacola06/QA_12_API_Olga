@@ -3,7 +3,6 @@ package okhttp;
 import com.google.gson.Gson;
 import dto.ContactDto;
 import dto.DeleteResponseDto;
-import manager.Methods;
 import okhttp3.*;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;

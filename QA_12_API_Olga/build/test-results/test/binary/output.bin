@@ -1,1 +1,10 @@
-"Contact with ID =865 was deleted
+†ContactDto(id=866, name=John-3114, lastName=Dow-3124, email=gfr@gmail.com, phone=035882-3114, address=Tel Aviv, description=Private)
+#*********************************
+†ContactDto(id=867, name=John-3103, lastName=Dow-3113, email=gfr@gmail.com, phone=035882-3103, address=Tel Aviv, description=Private)
+#*********************************
+†ContactDto(id=860, name=John-2835, lastName=Dow-2845, email=gfr@gmail.com, phone=035882-2835, address=Tel Aviv, description=Private)
+#*********************************
+†ContactDto(id=861, name=John-2835, lastName=Dow-2845, email=gfr@gmail.com, phone=035882-2835, address=Tel Aviv, description=Private)
+#*********************************
+†ContactDto(id=862, name=John-2835, lastName=Dow-2845, email=gfr@gmail.com, phone=035882-2835, address=Tel Aviv, description=Private)
+#*********************************
