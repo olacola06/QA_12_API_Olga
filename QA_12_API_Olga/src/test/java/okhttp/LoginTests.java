@@ -28,7 +28,7 @@ public class LoginTests {
         Assert.assertEquals(response.code(),200);
 
         AuthResponse authRes = gson.fromJson(response.body().string(),AuthResponse.class);
-        System.out.println(authRes.getToken().toString());
+        System.out.println("Received token:->>"+authRes.getToken().toString());
     }
 
     @Test
