@@ -26,7 +26,7 @@ public class DeleteAllContacts {
         Assert.assertEquals(response.code(),200);
 
         DeleteResponseDto deletedAll = gson.fromJson(response.body().string(),DeleteResponseDto.class);
-        //Assert.assertEquals(deletedAll.getStatus(),"");
+        Assert.assertEquals(deletedAll.getStatus(),"");
         System.out.println(deletedAll);
     }
 

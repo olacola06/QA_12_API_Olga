@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="restassured.GetAllContactsRA" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-09T17:27:43" hostname="ARTEMKA" time="1.721">
+  <properties/>
+  <testcase name="getAllContacts" classname="restassured.GetAllContactsRA" time="1.721"/>
+  <system-out><![CDATA[ContactDto(id=866, name=John-3114, lastName=Dow-3124, email=gfr@gmail.com, phone=035882-3114, address=Tel Aviv, description=Private)
+***************
+ContactDto(id=867, name=John-3103, lastName=Dow-3113, email=gfr@gmail.com, phone=035882-3103, address=Tel Aviv, description=Private)
+***************
+ContactDto(id=915, name=John-2798, lastName=Dow-2808, email=gfr@gmail.com, phone=035882-2798, address=Tel Aviv, description=Private)
+***************
+ContactDto(id=860, name=John-2835, lastName=Dow-2845, email=gfr@gmail.com, phone=035882-2835, address=Tel Aviv, description=Private)
+***************
+ContactDto(id=861, name=John-2835, lastName=Dow-2845, email=gfr@gmail.com, phone=035882-2835, address=Tel Aviv, description=Private)
+***************
+ContactDto(id=862, name=John-2835, lastName=Dow-2845, email=gfr@gmail.com, phone=035882-2835, address=Tel Aviv, description=Private)
+***************
+ContactDto(id=953, name=Tommy, lastName=Tomson, email=allWo@gmail.com, phone=035882120, address=Ashdod, description=Busines)
+***************
+ContactDto(id=954, name=Tommy, lastName=Tomson, email=allWo@gmail.com, phone=035882120, address=Ashdod, description=Busines)
+***************
+ContactDto(id=955, name=Tommy, lastName=Tomson, email=allWo@gmail.com, phone=035882120, address=Ashdod, description=Busines)
+***************
+ContactDto(id=956, name=Tommy, lastName=Tomson, email=allWo@gmail.com, phone=035882120, address=Ashdod, description=Busines)
+***************
+ContactDto(id=957, name=Tommy, lastName=Tomson, email=allWo@gmail.com, phone=035882120, address=Ashdod, description=Busines)
+***************
+ContactDto(id=958, name=John-2544, lastName=Dow-2554, email=gfr@gmail.com, phone=035882-2544, address=Tel Aviv, description=Private)
+***************
+ContactDto(id=960, name=Tommy, lastName=Tomson, email=allWo@gmail.com, phone=035882120, address=Ashdod, description=Busines)
+***************
+ContactDto(id=998, name=Tommy, lastName=Tomson, email=allWo@gmail.com, phone=035882120, address=Ashdod, description=Busines)
+***************
+ContactDto(id=999, name=Tommy, lastName=Tomson, email=allWo@gmail.com, phone=035882120, address=Ashdod, description=Business)
+***************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

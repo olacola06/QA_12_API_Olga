@@ -19,7 +19,7 @@ public class RegistrationTests {
 
     @Test
     public void registrationSuccess() throws IOException {
-        Auth auth = Auth.builder().email("Oollaa@gmail.com").password("Bo12345$").build();
+        Auth auth = Auth.builder().email("Oollaa"+i+"@gmail.com").password("Bo12345$").build();
 
         RequestBody body = RequestBody.create(gson.toJson(auth),JSON);
 
@@ -45,12 +45,21 @@ public class RegistrationTests {
         Assert.assertEquals(response.code(),400);
 
         ErrorDto error = gson.fromJson(response.body().string(),ErrorDto.class);
-        System.out.println(error.getMessage().toString());
+        //System.out.println(error.getMessage().toString());
         Assert.assertEquals(error.getMessage(),"Wrong email format! Example: name@mail.com");
 
     }
     @Test
-    public void registrationWrongPassword(){
+    public void registrationWrongPassword() throws IOException {
+        Auth auth = Auth.builder().email("Oollaa@gmail.com").password("Bo12345%").build();
+        RequestBody body  = RequestBody.create(gson.toJson(auth),JSON);
+        Request request = new Request.Builder().url("http://contacts-telran.herokuapp.com/api/registration")
+                .post(body).build();
+
+        Response response = client.newCall(request).execute();
+        Assert.assertEquals(response.code(),400);
+        ErrorDto responseError = gson.fromJson(response.body().string(),ErrorDto.class);
+        System.out.println(responseError.getMessage().toString());
 
     }
     @Test
