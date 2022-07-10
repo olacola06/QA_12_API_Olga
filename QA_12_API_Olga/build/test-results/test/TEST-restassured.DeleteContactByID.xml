@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="restassured.DeleteContactByID" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-10T13:16:20" hostname="ARTEMKA" time="0.219">
+  <properties/>
+  <testcase name="deleteContactByIDSuccess" classname="restassured.DeleteContactByID" time="0.219"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

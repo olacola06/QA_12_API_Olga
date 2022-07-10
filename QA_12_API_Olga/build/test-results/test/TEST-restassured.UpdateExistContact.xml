@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="restassured.UpdateExistContact" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-10T13:16:22" hostname="ARTEMKA" time="0.218">
+  <properties/>
+  <testcase name="updateExistContactSuccess" classname="restassured.UpdateExistContact" time="0.218"/>
+  <system-out><![CDATA[New contact with created:->>ContactDto(id=1104, name=Ivan-2400, lastName=Perov, email=Dog@mail.ru, phone=035689-2400, address=Rome, description=Friend)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

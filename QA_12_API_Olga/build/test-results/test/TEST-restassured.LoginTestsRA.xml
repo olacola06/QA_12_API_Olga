@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="restassured.LoginTestsRA" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-07-10T13:16:20" hostname="ARTEMKA" time="0.594">
+  <properties/>
+  <testcase name="loginTestSuccess" classname="restassured.LoginTestsRA" time="0.204"/>
+  <testcase name="loginWrongEmailTestNG" classname="restassured.LoginTestsRA" time="0.203"/>
+  <testcase name="loginWrongPasswordRA" classname="restassured.LoginTestsRA" time="0.187"/>
+  <system-out><![CDATA[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Ik9vbGxhYUBnbWFpbC5jb20ifQ.DRvj59OcD8Fm4JNHvdPlsAaX2pXmDVv-w6OtT3s5NTo
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

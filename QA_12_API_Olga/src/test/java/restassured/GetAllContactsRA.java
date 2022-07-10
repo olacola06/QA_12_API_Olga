@@ -18,6 +18,7 @@ public class GetAllContactsRA extends HelperMethods{
                 .extract().response().as(AllContactsDto.class);
 
         List<ContactDto> list = allContacts.getContacts();
+        System.out.println("Total contacts = "+list.size());
         for(ContactDto con:list){
             System.out.println(con.toString());
             System.out.println("***************");

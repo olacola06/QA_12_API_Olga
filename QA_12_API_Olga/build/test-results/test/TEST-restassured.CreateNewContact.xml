@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="restassured.CreateNewContact" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-07-10T13:16:16" hostname="ARTEMKA" time="2.203">
+  <properties/>
+  <testcase name="createANewContact" classname="restassured.CreateNewContact" time="1.343"/>
+  <testcase name="createANewContact" classname="restassured.CreateNewContact" time="0.234"/>
+  <testcase name="createANewContact" classname="restassured.CreateNewContact" time="0.204"/>
+  <testcase name="createANewContact" classname="restassured.CreateNewContact" time="0.219"/>
+  <testcase name="createANewContact" classname="restassured.CreateNewContact" time="0.203"/>
+  <system-out><![CDATA[New contact with created:->>ContactDto(id=1098, name=Ivan-2400, lastName=Perov, email=Dog@mail.ru, phone=035689-2400, address=Rome, description=Friend)
+New contact with created:->>ContactDto(id=1099, name=Ivan-2400, lastName=Perov, email=Dog@mail.ru, phone=035689-2400, address=Rome, description=Friend)
+New contact with created:->>ContactDto(id=1100, name=Ivan-2400, lastName=Perov, email=Dog@mail.ru, phone=035689-2400, address=Rome, description=Friend)
+New contact with created:->>ContactDto(id=1101, name=Ivan-2400, lastName=Perov, email=Dog@mail.ru, phone=035689-2400, address=Rome, description=Friend)
+New contact with created:->>ContactDto(id=1102, name=Ivan-2400, lastName=Perov, email=Dog@mail.ru, phone=035689-2400, address=Rome, description=Friend)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
